@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay</title>
+    <link rel="stylesheet" href="rock.css">
+</head>
+<body>
+    
+    <header class="title">
+        <h1>Rock, Paper and Scissor</h1>
+        <h3>Test your luck!!</h3>
+    </header>
+
+    <div class="gameDiv">
+        <h3>Choose your option</h3>
+        <div class="choices">
+            <button class="choiceBtn">Rock</button>
+            <button class="choiceBtn">Paper</button>
+            <button class="choiceBtn">Scissor</button>
+        </div>
+        <div class="result">
+            <p class="gameText">Player: <span id="playerText"></span></p>
+            <p class="gameText">Computer: <span id="computerText"></span></p>
+            <p class="gameText" id="resultText"></p>
+        </div>
+    </div>
+
+    <table id="myTable">
+        <thead>
+            <th class="players">Player</th>
+            <th class="players">Computer</th>
+        </thead>
+        <tbody class="tableBody"></tbody>
+    </table>
+    <input type="reset" value="Reset" id="resetBtn">
+    <script src="rock.js"></script>
+</body>
+</html>
